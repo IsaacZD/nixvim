@@ -52,6 +52,6 @@ in {
   keymaps = [
     (nmap "<leader>fp" "<cmd>Telescope projects<CR>" "Projects")
     (nmap "<leader>sd" "<cmd>Telescope diagnostics bufnr=0<cr>" "Document diagnostics")
-    (nmap "<leader>st" "<cmd>Telescope projects<CR>" "Projects")
+    (nmap "<leader>st" "<cmd>TodoTelescope<CR>" "Todo (Telescope)")
   ];
 }
