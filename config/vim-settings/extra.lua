@@ -18,5 +18,5 @@ if g.neovide then
 
     g.neovide_transparency = 0.8
 
-    o.guifont = "CaskaydiaCove Nerd Font"
+    o.guifont = "Maple Mono SC NF"
 end

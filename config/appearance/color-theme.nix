@@ -42,4 +42,6 @@
       };
     };
   };
+
+  colorschemes.catppuccin.settings.custom_highlights = builtins.readFile ./custom-colors.lua;
 }
