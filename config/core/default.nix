@@ -1,8 +1,9 @@
 {
   imports = [
-    ./telescope
     ./hardtime.nix
     ./neo-tree.nix
+    ./notify.nix
+    ./telescope
   ];
 
   plugins.which-key.enable = true;
