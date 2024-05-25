@@ -2,7 +2,7 @@
   imports = [
     ./coding
     ./core
-    ./ricing
+    ./appearance
     ./vim-settings
   ];
 }
