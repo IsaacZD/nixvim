@@ -4,9 +4,9 @@ local o = vim.o
 
 -- Neovide
 if g.neovide then
-    g.neovide_fullscreen = false
+    -- g.neovide_fullscreen = false
     g.neovide_hide_mouse_when_typing = false
-    g.neovide_refresh_rate = 165
+    g.neovide_refresh_rate = 60
 
     g.neovide_cursor_animate_command_line = true
     g.neovide_cursor_animate_in_insert_mode = true

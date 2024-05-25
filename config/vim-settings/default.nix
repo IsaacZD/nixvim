@@ -113,5 +113,5 @@
     laststatus = 3;
   };
 
-  extraConfigLua = builtins.readFile ./extra.lua;
+  extraConfigLuaPre = builtins.readFile ./extra.lua;
 }
