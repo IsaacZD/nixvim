@@ -10,14 +10,10 @@
       backend = "nui";
     };
 
-    lsp = {
-      message = {
-        enabled = true;
-      };
-      progress = {
-        enabled = false;
-        view = "mini";
-      };
+    lsp.message.enabled = true;
+    lsp.progress = {
+      enabled = false;
+      view = "mini";
     };
 
     format = {
