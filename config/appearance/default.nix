@@ -1,7 +1,8 @@
 {
   imports = [
     ./color-theme.nix
-    ./status-line.nix
     ./greeter.nix
+    ./noice.nix
+    ./status-line.nix
   ];
 }
