@@ -1,5 +1,6 @@
 {
   imports = [
+    ./bufferline.nix
     ./color-theme.nix
     ./greeter.nix
     ./noice.nix

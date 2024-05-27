@@ -51,6 +51,22 @@
         };
 
         formatter = pkgs.alejandra;
+
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            cargo
+            rustc
+            rustfmt
+            clippy
+          ];
+
+          # NOTE: direnv does not support alias and function
+          shellHook = ''
+            export ROOT_DIR="$(git rev-parse --show-toplevel)"
+            alias v="$ROOT_DIR/result/bin/nvim"
+            alias vim-rebuild="nix build $ROOT_DIR --out-link $ROOT_DIR/result"
+          '';
+        };
       };
     };
 }

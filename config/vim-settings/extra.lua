@@ -13,7 +13,7 @@ if g.neovide then
     g.neovide_cursor_animate_command_line = true
     g.neovide_cursor_animate_in_insert_mode = true
 
-    g.neovide_cursor_vfx_mode = "ripple"
+    g.neovide_cursor_vfx_mode = "railgun"
     g.neovide_cursor_vfx_particle_lifetime = 5.0
     g.neovide_cursor_vfx_particle_density = 14.0
     g.neovide_cursor_vfx_particle_speed = 12.0
