@@ -59,6 +59,7 @@
             rustfmt
             clippy
             rust-analyzer
+            vscode-extensions.vadimcn.vscode-lldb.adapter
           ];
 
           # NOTE: direnv does not support alias and function
