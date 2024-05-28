@@ -58,6 +58,7 @@
             rustc
             rustfmt
             clippy
+            rust-analyzer
           ];
 
           # NOTE: direnv does not support alias and function

@@ -68,6 +68,10 @@ let
     };
   };
 in {
+  imports = [
+    ./lspsaga.nix
+  ];
+
   plugins.lsp-format.enable = false;
 
   plugins.lsp = {
@@ -76,7 +80,7 @@ in {
   };
 
   plugins.lsp.servers = {
-    inherit rust-analyzer lua-ls;
+    inherit rust-analyzer lua-ls tsserver;
 
     nil_ls.enable = true; # Nix
     clangd.enable = true;

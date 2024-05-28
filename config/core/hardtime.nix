@@ -14,6 +14,9 @@ let
     "Trouble"
     "trouble"
     "notify"
+    "sagafinder"
+    "sagaoutline"
+    "saga_codeaction"
   ];
 in {
   # Learn vim operations

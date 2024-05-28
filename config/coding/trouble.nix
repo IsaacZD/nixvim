@@ -16,7 +16,7 @@
       action = "<cmd>TroubleToggle<cr>";
       options = {
         silent = true;
-        desc = "Document Diagnostics (Trouble)";
+        desc = "Toggle Diagnostics (Trouble)";
       };
     }
     {
