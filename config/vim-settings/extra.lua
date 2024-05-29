@@ -20,5 +20,5 @@ if g.neovide then
 
     g.neovide_transparency = 0.7
 
-    o.guifont = "Maple Mono SC NF"
+    o.guifont = "Maple Mono SC NF:h13"
 end
