@@ -5,9 +5,8 @@
     ./neo-tree.nix
     ./notify.nix
     ./telescope
+    ./which-key.nix
   ];
-
-  plugins.which-key.enable = true;
 
   # jk to Esc
   plugins.better-escape = {
