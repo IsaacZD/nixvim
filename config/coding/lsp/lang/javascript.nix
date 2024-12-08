@@ -1,5 +1,5 @@
 {
-  plugins.lsp.servers.tsserver = {
+  plugins.lsp.servers.ts_ls = {
     enable = false;
     filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
     extraOptions = {

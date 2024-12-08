@@ -22,8 +22,10 @@ in {
   # Learn vim operations
   plugins.hardtime.enable = true;
   plugins.hardtime = {
-    inherit disabledFiletypes;
-    enabled = true;
-    disableMouse = true;
+    settings = {
+      inherit disabledFiletypes;
+      enabled = true;
+      disableMouse = true;
+    };
   };
 }

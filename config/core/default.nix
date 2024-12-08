@@ -11,7 +11,8 @@
   # jk to Esc
   plugins.better-escape = {
     enable = true;
-    clearEmptyLines = true;
-    timeout = 200;
+    settings = {
+      timeout = 200;
+    };
   };
 }

@@ -1,5 +1,5 @@
 {
-  plugins.lsp.servers.lua-ls = {
+  plugins.lsp.servers.lua_ls = {
     enable = true;
     extraOptions = {
       settings = {

@@ -2,25 +2,27 @@
   plugins.lualine.enable = true;
 
   plugins.lualine = {
-    alwaysDivideMiddle = true;
     # Enable global status line.
-    globalstatus = true;
-    ignoreFocus = ["neo-tree"];
-    extensions = ["fzf"];
-    theme = "auto";
-    componentSeparators = {
-      left = "|";
-      right = "|";
+    settings.extensions = ["fzf"];
+
+    settings.options = {
+      globalstatus = true;
+      alwaysDivideMiddle = true;
+      theme = "auto";
+      ignoreFocus = ["neo-tree"];
+      componentSeparators = {
+        left = "|";
+        right = "|";
+      };
+      sectionSeparators = {
+        #   left = "█"; # 
+        #   right = "█"; # 
+        left = "";
+        right = "";
+      };
     };
 
-    sectionSeparators = {
-      #   left = "█"; # 
-      #   right = "█"; # 
-      left = "";
-      right = "";
-    };
-
-    sections = {
+    settings.sections = {
       lualine_a = ["mode"];
       lualine_b = [
         {

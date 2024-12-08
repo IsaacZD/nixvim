@@ -38,7 +38,7 @@ let
 in {
   plugins.alpha.enable = true;
   plugins.alpha.theme = null;
-  plugins.alpha.iconsEnabled = true;
+  # plugins.alpha.iconsEnabled = true;
 
   plugins.alpha.layout = [
     (padding 4)
