@@ -63,6 +63,7 @@
       scrollUp = "<C-b>";
     };
   };
+
   keymaps = [
     {
       mode = "n";

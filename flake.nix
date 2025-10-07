@@ -2,8 +2,8 @@
   description = "Ved: my nixvim config";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
-    nixvim.url = "github:nix-community/nixvim";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixvim.url = "github:nix-community/nixvim/nixos-25.05";
   };
 
   outputs = {

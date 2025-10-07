@@ -16,7 +16,7 @@ in {
     nil_ls.enable = true; # Nix
     clangd.enable = true;
     pyright.enable = true; # Python static type checker
-    ruff_lsp.enable = true; # Python linter
+    ruff.enable = true; # Python linter
   };
 
   extraConfigLua = ''

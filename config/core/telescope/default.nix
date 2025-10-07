@@ -5,6 +5,7 @@
 
   plugins.telescope.enable = true;
   plugins.todo-comments.enable = true; # todo provider
+  plugins.web-devicons.enable = true; # required
 
   plugins.telescope.extensions = {
     fzf-native.enable = true;

@@ -1,4 +1,17 @@
 {
+  plugins = {
+    dap-virtual-text.enable = true;
+
+    dap-ui = {
+      enable = true;
+      settings.floating.mappings = {
+        close = ["<ESC>" "q"];
+      };
+    };
+
+    dap-python.enable = true;
+  };
+
   plugins.dap = {
     enable = true;
     signs = {
@@ -15,20 +28,7 @@
         texthl = "DapLogPoint";
       };
     };
-    extensions = {
-      dap-python = {
-        enable = true;
-      };
-      dap-ui = {
-        enable = true;
-        floating.mappings = {
-          close = ["<ESC>" "q"];
-        };
-      };
-      dap-virtual-text = {
-        enable = true;
-      };
-    };
+
     configurations = {
       java = [
         {

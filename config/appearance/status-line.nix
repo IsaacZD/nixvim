@@ -25,10 +25,11 @@
     settings.sections = {
       lualine_a = ["mode"];
       lualine_b = [
-        {
-          name = "branch";
-          icon = "";
-        }
+        # {
+        #   name = "branch";
+        #   icon = "";
+        # }
+        "branch"
         "diff"
         "diagnostics"
       ];

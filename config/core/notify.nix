@@ -2,11 +2,13 @@
   plugins.notify.enable = true;
 
   plugins.notify = {
-    backgroundColour = "#000000";
-    fps = 60;
-    render = "default";
-    timeout = 500;
-    topDown = true;
+    settings = {
+      fps = 60;
+      render = "default";
+      top_down = true;
+      background_colour = "#000000";
+      timeout = 500;
+    };
   };
 
   keymaps = [
