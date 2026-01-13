@@ -20,7 +20,7 @@ let
   ];
 in {
   # Learn vim operations
-  plugins.hardtime.enable = true;
+  plugins.hardtime.enable = false;
   plugins.hardtime = {
     settings = {
       inherit disabledFiletypes;
