@@ -2,7 +2,7 @@
   plugins.neo-tree.enable = true;
 
   # Collapse folder
-  plugins.neo-tree.window.mappings."h".__raw = ''
+  plugins.neo-tree.settings.window.mappings."h".__raw = ''
       function(state)
       local node = state.tree:get_node()
       if node.type == "directory" and node:is_expanded() then
@@ -14,7 +14,7 @@
   '';
 
   # Expand folder
-  plugins.neo-tree.window.mappings."l".__raw = ''
+  plugins.neo-tree.settings.window.mappings."l".__raw = ''
     function(state)
       local node = state.tree:get_node()
       if node.type == "directory" then
@@ -27,8 +27,8 @@
     end
   '';
 
-  plugins.neo-tree.window.mappings."s" = "";
-  plugins.neo-tree.window.mappings."<space>" = "";
+  plugins.neo-tree.settings.window.mappings."s" = "";
+  plugins.neo-tree.settings.window.mappings."<space>" = "";
 
   keymaps = [
     {

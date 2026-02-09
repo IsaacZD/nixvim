@@ -40,7 +40,7 @@ in {
   plugins.alpha.theme = null;
   # plugins.alpha.iconsEnabled = true;
 
-  plugins.alpha.layout = [
+  plugins.alpha.settings.layout = [
     (padding 4)
     {
       type = "text";
