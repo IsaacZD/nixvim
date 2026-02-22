@@ -1,6 +1,7 @@
 {
   imports = [
     ./flash.nix
+    ./git.nix
     ./hardtime.nix
     ./neo-tree.nix
     ./notify.nix
