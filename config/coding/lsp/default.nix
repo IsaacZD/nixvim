@@ -13,7 +13,7 @@ in {
   };
 
   plugins.lsp.servers = {
-    nil_ls.enable = true; # Nix
+    nil_ls.enable = false; # Nix. Disabled until I config the formatter
     clangd.enable = true;
     pyright.enable = true; # Python static type checker
     ruff.enable = true; # Python linter
