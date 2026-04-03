@@ -15,7 +15,11 @@
         "x86_64-linux"
       ];
 
-      flake.homeManagerModules.default = {pkgs, ...}: {
+      flake.homeManagerModules.default = {
+        pkgs,
+        lib,
+        ...
+      }: {
         programs.neovim = {
           enable = true;
           # Signal to the Lua config that LSPs are managed by Nix, not Mason
@@ -34,8 +38,12 @@
             # Required by nvim-treesitter to compile parsers
             clang
             tree-sitter
+            # Font
+            maple-mono.NF-CN
           ];
         };
+
+        fonts.fontconfig.enable = lib.mkDefault true;
 
         # Link the lua config into ~/.config/nvim
         xdg.configFile."nvim" = {
