@@ -67,6 +67,8 @@
           # Tools
           ripgrep
           git
+          # Required by nvim-treesitter to compile parsers
+          tree-sitter
         ];
       in {
         formatter = pkgs.alejandra;
