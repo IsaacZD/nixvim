@@ -39,6 +39,7 @@
             # Tools
             ripgrep
             fd
+            tree-sitter
           ];
         };
 
