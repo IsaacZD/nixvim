@@ -1,5 +1,5 @@
 # Ved
-My nixvim configuration
+My neovim configuration
 
 ## Issues
 [ ] Neovide: Lualine color problem. https://github.com/neovide/neovide/issues/2275

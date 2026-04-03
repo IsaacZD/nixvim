@@ -1,2 +1,4 @@
 .direnv
 result
+# Created by `nix develop .#nvim` to point XDG_CONFIG_HOME at this repo
+.config/
