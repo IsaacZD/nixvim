@@ -20,6 +20,8 @@ require("lazy").setup({
     { import = "plugins" },
   },
   defaults = { lazy = false, version = false },
+  -- Keep lockfile out of the config dir, which may be read-only (Nix store)
+  lockfile = vim.fn.stdpath("data") .. "/lazy-lock.json",
   install = { colorscheme = { "tokyonight", "haiku" } },
   checker = { enabled = true },
   performance = {
