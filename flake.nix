@@ -31,6 +31,8 @@
             # Tools
             ripgrep
             fd
+            # Required by nvim-treesitter to compile parsers
+            clang
             tree-sitter
           ];
         };
@@ -61,6 +63,7 @@
           ripgrep
           git
           # Required by nvim-treesitter to compile parsers
+          clang
           tree-sitter
         ];
       in {
