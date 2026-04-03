@@ -43,8 +43,6 @@
           ];
         };
 
-        fonts.fontconfig.enable = lib.mkDefault true;
-
         # Link the lua config into ~/.config/nvim
         xdg.configFile."nvim" = {
           source = ./.;
