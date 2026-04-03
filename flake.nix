@@ -21,20 +21,12 @@
           # Signal to the Lua config that LSPs are managed by Nix, not Mason
           extraLuaConfig = "vim.g.is_nix = true";
           extraPackages = with pkgs; [
-            # LSP servers
-            clang-tools
+            # LSP servers (config files)
             lua-language-server
-            pyright
-            ruff
-            nodePackages.eslint
-            rust-analyzer
 
-            # Formatters
-            prettierd
+            # Formatters (config files)
             stylua
             alejandra
-            rustfmt
-            black
 
             # Tools
             ripgrep
